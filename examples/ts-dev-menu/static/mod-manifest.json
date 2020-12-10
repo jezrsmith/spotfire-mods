@@ -1,9 +1,9 @@
 {
     "apiVersion": "1.0",
     "version": "1.0",
-    "name": "Gauge",
-    "id": "spotfire-mod-example-gauge",
-    "externalResources": [],
+    "name": "Menu",
+    "id": "spotfire-mod-menu",
+    "externalResources": ["https://cdn.jsdelivr.net"],
     "icon": "icon.svg",
     "properties": [
         {
@@ -24,6 +24,7 @@
     ],
     "dataViewDefinition": {
         "axes": [
+
         ]
     },
     "files": []

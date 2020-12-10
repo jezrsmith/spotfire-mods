@@ -1,5 +1,5 @@
 {
-    "name": "spotfire-mod-example-gauge",
+    "name": "spotfire-mod-menu",
     "version": "1.0.0",
     "description": "",
     "scripts": {
@@ -26,8 +26,9 @@
         "rollup": "^1.21.3",
         "rollup-plugin-typescript2": "^0.24.2",
         "ts-node": "^8.4.1",
-        "typescript": "^3.8.2",
-        "@types/google.visualization": "0.0.51"
+        "typescript": "^3.8.2"
     },
-    "dependencies": {}
+    "dependencies": {
+        "@tibco-tcstk/tc-web-components": "^2.2.4-rc.1607564530728"
+    }
 }
